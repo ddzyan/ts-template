@@ -8,6 +8,7 @@
     "dev": "nodemon --inspect src/index.ts",
     "ts": "ts-node src/index.ts",
     "build": "tsc",
+    "clear": "rm -rf ./build",
     "watch-ts": "rimraf ./dist && tsc -w",
     "lint": "eslint . --ext .ts"
   },
